@@ -1,5 +1,7 @@
 "use strict";
 
+window.onresize = drawLines;
+
 drawLines();
 
 function drawLines() {
@@ -13,7 +15,7 @@ function drawLines() {
     let canvasWidth = context.canvas.width;
 
     //distance from the sides of the window
-    let distance = 200;
+    let distance = 400;
 
     context.lineWidth = 5;
     context.beginPath();
@@ -27,7 +29,7 @@ function drawLines() {
     context.lineTo(canvasWidth - distance, 350);
     context.lineTo(distance, 450);
     context.lineTo(canvasWidth - distance, 450);
-    context.closePath();
+    context.lineTo(distance, 50);
     context.stroke();
 
 }

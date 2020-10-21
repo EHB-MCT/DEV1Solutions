@@ -1,5 +1,7 @@
 "use strict";
 
+window.onresize = drawPattern;
+
 drawPattern();
 
 function drawPattern() {

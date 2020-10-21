@@ -1,5 +1,9 @@
 "use strict";
 
+window.onresize = drawSunset;
+
+drawSunset();
+
 function drawSunset() {
     let canvas = document.querySelector("canvas");
     canvas.width = window.innerWidth;
