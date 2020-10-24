@@ -14,9 +14,8 @@ function setupCanvasContext() {
     context = canvas.getContext('2d');
 }
 
+window.onresize = reload;
 
-window.onresize = reloadPage;
-
-function reloadPage() {
-    window.location.reload();
+function reload() {
+    location.reload();
 }
