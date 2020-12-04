@@ -10,7 +10,8 @@
             "request": "attach",
             "name": "Attach to Chrome",
             "port": 9222,
-            "webRoot": "${workspaceRoot}"
+            "webRoot": "${workspaceRoot}",
+            "url": "http://127.0.0.1:5500"
         }
     ]
 }

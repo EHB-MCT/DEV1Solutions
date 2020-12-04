@@ -1,6 +1,6 @@
 {
     "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.ChromeDebuggingAttachment": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --remote-debugging-port=9222",
     "git-graph.contextMenuActionsVisibility": {
         "branch": {
             "checkout": false,
